@@ -1,0 +1,72 @@
+{
+  "title": "搜配在线gitbook文档",
+  "author": "搜配",
+  "description": "搜配在线gitbook文档",
+  "plugins": [
+    "-sharing",
+    "sharing-plus",
+    "back-to-top-button",
+    "page-footer-ex",
+    "-lunr",
+    "-search",
+    "search-pro",
+    "advanced-emoji",
+    "splitter",
+    "anchors",
+    "alerts",
+    "anchor-navigation-ex",
+    "copy-code-button",
+    "insert-logo",
+    "github",
+    "popup",
+    "expandable-chapters-small",
+    "donate",
+    "chapter-fold",
+    "pageview-count",
+    "theme-comscore"
+  ],
+  "pluginsConfig": {
+    "donate": {
+      "button": ""
+    },
+    "sharing": {
+      "douban": false,
+      "facebook": false,
+      "google": false,
+      "pocket": false,
+      "qq": false,
+      "qzone": false,
+      "twitter": false,
+      "weibo": false,
+      "all": [
+        "douban",
+        "facebook",
+        "google",
+        "instapaper",
+        "linkedin",
+        "twitter",
+        "weibo",
+        "messenger",
+        "qq",
+        "qzone",
+        "viber",
+        "whatsapp"
+      ]
+    },
+    "github": {
+      "url": ""
+    },
+    "insert-logo": {
+      "url": "https://gitee.com/xiaowu_wang/pic/raw/master/a.png",
+      "style": "background: none; width:100%;height:100%"
+    },
+    "page-footer-ex": {
+      "markdown": false,
+      "update_label": "<i>该文件修订时间：</i>",
+      "update_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "anchor-navigation-ex": {
+      "showGoTop": false
+    }
+  }
+}

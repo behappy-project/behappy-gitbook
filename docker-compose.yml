@@ -1,0 +1,14 @@
+version: "3"
+services:
+  gitbook:
+    build:
+      context: .
+    container_name: gitbook
+    hostname: gitbook
+    ports:
+      - "4000:4000"
+      - "35729:35729"
+    volumes:
+      - .:/gitbook
+      - ./polyfills.js:/usr/local/todo
+    command: ['./start.sh']
