@@ -9,6 +9,13 @@ services:
       - "4000:4000"
       - "35729:35729"
     volumes:
-      - .:/gitbook
-      - ./polyfills.js:/usr/local/todo
-    command: ['./start.sh']
+      - ./book:/gitbook
+      - ./polyfills.js:/usr/local/lib/node_modules/gitbook-cli/node_modules/npm/node_modules/graceful-fs/polyfills.js
+    command: >
+      bash -c
+      "
+      if [ ! -f SUMMARY.md ]; then gitbook init; fi &&
+      gitbook install &&
+      gitbook serve
+      "
+    init: true

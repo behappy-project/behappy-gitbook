@@ -4,6 +4,6 @@ MAINTAINER sopei
 
 WORKDIR /gitbook
 
-RUN npm --registry https://registry.npm.taobao.org install gitbook-cli -g && gitbook init
+RUN npm --registry https://registry.npm.taobao.org install gitbook-cli -g
 
 EXPOSE 4000
