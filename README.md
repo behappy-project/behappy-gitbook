@@ -13,13 +13,14 @@
 
 > 本地试运行
 
-注: 超过node10的版本,需替换掉/xxx/lib/node_modules/gitbook-cli/node_modules/npm/node_modules/graceful-fs/polyfills.js文件,或注释掉61-63
 1. 安装 GitBook-cli `npm install gitbook-cli -g`
-2. gitbook 初始化 `gitbook init`
-注: 4,5可选一个执行
-3. cmd切到book下,执行 `gitbook install`
+2. cmd切到book下,gitbook 初始化 `gitbook init`
+   注: 超过node10的版本,需替换掉/xxx/lib/node_modules/gitbook-cli/node_modules/npm/node_modules/graceful-fs/polyfills.js文件,或注释掉61-63
+3. 下载依赖项,执行 `gitbook install`
+   注: 4,5可选一个执行
 3. 服务形式启动,默认端口4000:执行`gitbook serve`
 4. 构建成静态文件:执行`gitbook build`,使用代理工具,如下是nginx的例子
+
 ~~~
 location /sopei {
     alias  /xxx/sopei;
