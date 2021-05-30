@@ -1,6 +1,6 @@
 FROM node:latest
 
-MAINTAINER sopei
+MAINTAINER xiaowu
 
 WORKDIR /gitbook
 

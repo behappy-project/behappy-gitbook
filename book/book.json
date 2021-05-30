@@ -1,7 +1,7 @@
 {
-  "title": "搜配在线gitbook文档",
-  "author": "搜配",
-  "description": "搜配在线gitbook文档",
+  "title": "在线gitbook文档",
+  "author": "gitbook文档",
+  "description": "在线gitbook文档",
   "plugins": [
     "-sharing",
     "sharing-plus",
@@ -54,10 +54,10 @@
       ]
     },
     "github": {
-      "url": "http://139.199.186.244:18090/xiaowu/sopei_gitbook.git"
+      "url": "https://gitee.com/xiaowu_wang/gitboot.git"
     },
     "insert-logo": {
-      "url": "https://gitee.com/xiaowu_wang/pic/raw/master/a.png",
+      "url": "https://gitee.com/xiaowu_wang/pic/raw/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210404112343.jpg",
       "style": "background: none; width:100%;height:100%"
     },
     "page-footer-ex": {
