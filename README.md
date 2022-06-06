@@ -11,10 +11,10 @@
 2. 安装docker-compose：`https://docs.docker.com/compose/install/`
 3. 进入根目录执行 `docker-compose up -d`
 
-> 本地试运行
+> 本地运行
 
 1. 安装 GitBook-cli `npm install gitbook-cli -g`
-2. cmd切到book下,gitbook 初始化 `gitbook init`   
+2. cmd切到book路径下,gitbook 初始化SUMMARY `gitbook init`   
    `注: 超过node10的版本,需替换掉/xxx/lib/node_modules/gitbook-cli/node_modules/npm/node_modules/graceful-fs/polyfills.js文件,或注释掉61-63`
 3. 下载依赖项,执行 `gitbook install `  
    `注: 4,5可选一个执行`
