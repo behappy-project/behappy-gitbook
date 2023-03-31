@@ -1,3 +1,6 @@
+## 技术沟通群
+<img src="https://raw.githubusercontent.com/wang-xiaowu/picture_repository/master/behappy_group.jpg" width="300px">
+
 # 定制化`gitbook`在线文档
 
 #### 项目介绍
